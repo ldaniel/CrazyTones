@@ -1,0 +1,5 @@
+C:\Users\Leandro Daniel\Projetos\CrazyTones\src\CrazyTones.Solution\CrazyTones.Core\bin\Debug\CrazyTones.Core.dll
+C:\Users\Leandro Daniel\Projetos\CrazyTones\src\CrazyTones.Solution\CrazyTones.Core\bin\Debug\CrazyTones.Core.pdb
+C:\Users\Leandro Daniel\Projetos\CrazyTones\src\CrazyTones.Solution\CrazyTones.Core\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Leandro Daniel\Projetos\CrazyTones\src\CrazyTones.Solution\CrazyTones.Core\obj\Debug\CrazyTones.Core.dll
+C:\Users\Leandro Daniel\Projetos\CrazyTones\src\CrazyTones.Solution\CrazyTones.Core\obj\Debug\CrazyTones.Core.pdb
