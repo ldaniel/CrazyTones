@@ -2,15 +2,15 @@
 {
     public class WaveHeader
     {
-        public string SGroupID; 
-        public uint DwFileLength;
-        public string SRiffType; 
+        public string GroupID; 
+        public uint FileLength;
+        public string RiffType; 
 
         public WaveHeader()
         {
-            DwFileLength = 0;
-            SGroupID = "RIFF";
-            SRiffType = "WAVE";
+            FileLength = 0;
+            GroupID = "RIFF";
+            RiffType = "WAVE";
         }
     }
 }
