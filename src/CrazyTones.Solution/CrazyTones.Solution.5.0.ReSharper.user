@@ -8,34 +8,39 @@
   </SettingsComponent>
   <RecentFiles>
     <RecentFiles>
-      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:WaveHeader.cs" caret="241" fromTop="9" />
-      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:WaveGenerator.cs" caret="337" fromTop="14" />
-      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:Chunks.cs" caret="28" fromTop="4" />
-      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:WaveFormatChunk.cs" caret="285" fromTop="6" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:WaveHeader.cs" caret="319" fromTop="14" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:WaveFormatChunk.cs" caret="409" fromTop="11" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:WaveDataChunk.cs" caret="185" fromTop="5" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:WaveGenerator.cs" caret="96" fromTop="4" />
+      <File id="3EC015F7-2DBF-4440-A6F3-04480A66C3C2/d:Properties/f:AssemblyInfo.cs" caret="0" fromTop="0" />
+      <File id="3EC015F7-2DBF-4440-A6F3-04480A66C3C2/f:Program.cs" caret="0" fromTop="0" />
     </RecentFiles>
     <RecentEdits>
       <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:WaveGenerator.cs" caret="0" fromTop="0" />
-      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:Chunks.cs" caret="600" fromTop="74" />
-      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:WaveGenerator.cs" caret="3315" fromTop="112" />
-      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:WaveGenerator.cs" caret="65" fromTop="4" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:WaveDataChunk.cs" caret="370" fromTop="74" />
       <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:WaveGenerator.cs" caret="481" fromTop="12" />
       <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:WaveGenerator.cs" caret="624" fromTop="16" />
-      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:WaveGenerator.cs" caret="1371" fromTop="15" />
-      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:WaveGenerator.cs" caret="1739" fromTop="17" />
-      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:WaveGenerator.cs" caret="1767" fromTop="26" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:WaveGenerator.cs" caret="1388" fromTop="15" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:WaveGenerator.cs" caret="1765" fromTop="17" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:WaveGenerator.cs" caret="1793" fromTop="26" />
       <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:WaveGenerator.cs" caret="404" fromTop="7" />
-      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:WaveGenerator.cs" caret="1709" fromTop="7" />
-      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:WaveGenerator.cs" caret="2503" fromTop="20" />
-      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:WaveGenerator.cs" caret="2332" fromTop="14" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:WaveGenerator.cs" caret="1735" fromTop="7" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:WaveGenerator.cs" caret="2538" fromTop="20" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:WaveGenerator.cs" caret="2367" fromTop="14" />
       <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:WaveGenerator.cs" caret="321" fromTop="13" />
-      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:WaveGenerator.cs" caret="1791" fromTop="11" />
-      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:WaveGenerator.cs" caret="1127" fromTop="13" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:WaveGenerator.cs" caret="1817" fromTop="11" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:WaveGenerator.cs" caret="1137" fromTop="13" />
       <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:WaveGenerator.cs" caret="719" fromTop="7" />
-      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:Chunks.cs" caret="28" fromTop="1" />
-      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:WaveHeader.cs" caret="160" fromTop="5" />
-      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:Chunks.cs" caret="172" fromTop="4" />
-      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:WaveFormatChunk.cs" caret="132" fromTop="3" />
-      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:WaveFormatChunk.cs" caret="613" fromTop="12" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:WaveFormatChunk.cs" caret="97" fromTop="3" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:WaveDataChunk.cs" caret="94" fromTop="6" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:WaveFormatChunk.cs" caret="142" fromTop="4" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:WaveHeader.cs" caret="156" fromTop="5" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:WaveHeader.cs" caret="319" fromTop="14" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:WaveHeader.cs" caret="319" fromTop="14" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:WaveDataChunk.cs" caret="185" fromTop="5" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:WaveGenerator.cs" caret="96" fromTop="4" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/f:WaveGenerator.cs" caret="3367" fromTop="4" />
+      <File id="3EC015F7-2DBF-4440-A6F3-04480A66C3C2/f:Program.cs" caret="0" fromTop="0" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -52,6 +57,7 @@
   <CompletionStatisticsManager>
     <ItemStatistics item="Default">
       <Item value="EnvironmentVariableTarget`0" priority="0" />
+      <Item value="int" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>

@@ -26,7 +26,7 @@ namespace CrazyTones.Core
             {
                 case WaveExampleType.ExampleSineWave:
                     uint numSamples = _format.SamplesPerSec * _format.NumberOfChannels;
-                    _data.ShortArray8Bits = new short[numSamples];
+                    _data.ShortArray = new short[numSamples];
                     int amplitude = 32760;  
                     double freq = 440.0f;   
                     double t = (Math.PI * 2 * freq) / (_format.SamplesPerSec * _format.NumberOfChannels);
@@ -35,11 +35,11 @@ namespace CrazyTones.Core
                     {
                         for (int channel = 0; channel < _format.NumberOfChannels; channel++)
                         {
-                            _data.ShortArray8Bits[i + channel] = Convert.ToInt16(amplitude * Math.Sin(t * i));
+                            _data.ShortArray[i + channel] = Convert.ToInt16(amplitude * Math.Sin(t * i));
                         }                        
                     }
 
-                    _data.LenghtOfHeaderInBytes = (uint)(_data.ShortArray8Bits.Length * (_format.BitsPerSample / 8));
+                    _data.LenghtOfHeaderInBytes = (uint)(_data.ShortArray.Length * (_format.BitsPerSample / 8));
 
                     break;
             }          
@@ -70,7 +70,7 @@ namespace CrazyTones.Core
         {
             _writer.Write(_data.ChunkID.ToCharArray());
             _writer.Write(_data.LenghtOfHeaderInBytes);
-            foreach (var dataPoint in _data.ShortArray8Bits)
+            foreach (var dataPoint in _data.ShortArray)
             {
                 _writer.Write(dataPoint);
             }
@@ -94,9 +94,9 @@ namespace CrazyTones.Core
 
         private void WriteHeader()
         {
-            _writer.Write(_header.SGroupID.ToCharArray());
-            _writer.Write(_header.DwFileLength);
-            _writer.Write(_header.SRiffType.ToCharArray());
+            _writer.Write(_header.GroupID.ToCharArray());
+            _writer.Write(_header.FileLength);
+            _writer.Write(_header.RiffType.ToCharArray());
         }
     }
 }

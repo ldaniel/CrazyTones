@@ -4,11 +4,11 @@
     {
         public string ChunkID;    
         public uint LenghtOfHeaderInBytes;   
-        public short[] ShortArray8Bits;  
+        public short[] ShortArray;  
 
         public WaveDataChunk()
         {
-            ShortArray8Bits = new short[0];
+            ShortArray = new short[0];
             LenghtOfHeaderInBytes = 0;
             ChunkID = "data";
         }   
