@@ -1,46 +1,60 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="CrazyTones.Core.WaveDataChunk">
-    <Position X="0.5" Y="2.75" Width="1.5" />
+  <Class Name="CrazyTones.Core.WaveSquare">
+    <Position X="2.75" Y="2" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAIEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
-      <FileName>WaveDataChunk.cs</FileName>
+      <HashCode>AAQAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAQAAAAAIA=</HashCode>
+      <FileName>Wave\Types\WaveSquare.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="CrazyTones.Core.WaveFormatChunk">
-    <Position X="0.5" Y="5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAIAAAEAAAAABAAAgAAAAAAAgAAgAAQAAAAAAEAAA=</HashCode>
-      <FileName>WaveFormatChunk.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="CrazyTones.Core.WaveGenerator">
-    <Position X="2.25" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAIAAEgAAAAAhAgAAEAAIA=</HashCode>
-      <FileName>WaveGenerator.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="CrazyTones.Core.WaveHeader">
-    <Position X="0.5" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AEQAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>WaveHeader.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="CrazyTones.Core.WaveSine" BaseTypeListCollapsed="true">
-    <Position X="7.25" Y="0.5" Width="2.75" />
+  <Class Name="CrazyTones.Core.WaveBase" Collapsed="true">
+    <Position X="2.75" Y="0.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>BgAAAAAAAAAACQABQAAIQAKAAAgEABBAAAAgAQgAEAA=</HashCode>
-      <FileName>WaveSine.cs</FileName>
+      <FileName>Wave\Types\WaveBase.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
+  <Class Name="CrazyTones.Core.WaveSawtooth">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAQAAAAAIA=</HashCode>
+      <FileName>Wave\Types\WaveSawtooth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CrazyTones.Core.WaveSine">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAQAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Wave\Types\WaveSine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CrazyTones.Core.WaveDataChunk" Collapsed="true">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Wave\Chunk\WaveDataChunk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CrazyTones.Core.WaveFormatChunk" Collapsed="true">
+    <Position X="2.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAEAAAAABAAAgAAAAAAAgAAgAAQAAAAAAEAAA=</HashCode>
+      <FileName>Wave\Chunk\WaveFormatChunk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CrazyTones.Core.WaveHeader" Collapsed="true">
+    <Position X="4" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Wave\Chunk\WaveHeader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Interface Name="CrazyTones.Core.IWaveType">
-    <Position X="4.25" Y="0.5" Width="2.75" />
+    <Position X="7.5" Y="0.75" Width="2.75" />
     <TypeIdentifier>
       <HashCode>AgAAAAAAAAAACQABQAAIQAKAAAAEAABAAAAgAQgAEAA=</HashCode>
-      <FileName>IWaveType.cs</FileName>
+      <FileName>Wave\Types\IWaveType.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Font Name="Segoe UI" Size="9" />

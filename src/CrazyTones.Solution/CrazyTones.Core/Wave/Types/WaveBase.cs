@@ -5,37 +5,20 @@ using System.Text;
 
 namespace CrazyTones.Core
 {
-    public class WaveSine : IWaveType
+    public class WaveBase : IWaveType
     {
-        public WaveHeader Header { get; private set; }
-        public WaveFormatChunk Format { get; private set; }
-        public WaveDataChunk Data { get; private set; }
+        public WaveHeader Header { get; set; }
+        public WaveFormatChunk Format { get; set; }
+        public WaveDataChunk Data { get; set; }
 
-        public WaveSine()
+        public WaveBase()
         {
-            Header = new WaveHeader();
-            Data = new WaveDataChunk();
-            Format = new WaveFormatChunk();
-            Initialize();
-        } 
 
-        public void Initialize()
+        }
+
+        public virtual void Initialize()
         {
-            uint numSamples = Format.SamplesPerSec * Format.NumberOfChannels;
-            Data.ShortArray = new short[numSamples];
-            int amplitude = 32760;
-            double freq = 440.0f;
-            double t = (Math.PI * 2 * freq) / (Format.SamplesPerSec * Format.NumberOfChannels);
 
-            for (uint i = 0; i < numSamples - 1; i++)
-            {
-                for (int channel = 0; channel < Format.NumberOfChannels; channel++)
-                {
-                    Data.ShortArray[i + channel] = Convert.ToInt16(amplitude * Math.Sin(t * i));
-                }
-            }
-
-            Data.LenghtOfHeaderInBytes = (uint)(Data.ShortArray.Length * (Format.BitsPerSample / 8));
         }
 
         public string GetHeaderGroupID()

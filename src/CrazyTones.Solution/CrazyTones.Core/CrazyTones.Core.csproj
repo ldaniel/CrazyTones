@@ -40,13 +40,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Types\IWaveType.cs" />
-    <Compile Include="Chunk\WaveDataChunk.cs" />
+    <Compile Include="Wave\Types\WaveBase.cs" />
+    <Compile Include="Wave\Types\WaveSawtooth.cs" />
+    <Compile Include="Wave\Types\WaveSquare.cs" />
+    <Compile Include="Wave\Types\IWaveType.cs" />
+    <Compile Include="Wave\Chunk\WaveDataChunk.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Chunk\WaveFormatChunk.cs" />
-    <Compile Include="WaveGenerator.cs" />
-    <Compile Include="Chunk\WaveHeader.cs" />
-    <Compile Include="Types\WaveSine.cs" />
+    <Compile Include="Wave\Chunk\WaveFormatChunk.cs" />
+    <Compile Include="Wave\WaveGenerator.cs" />
+    <Compile Include="Wave\Chunk\WaveHeader.cs" />
+    <Compile Include="Wave\Types\WaveSine.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
