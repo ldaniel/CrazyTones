@@ -10,28 +10,47 @@
     <RecentFiles>
       <File id="3EC015F7-2DBF-4440-A6F3-04480A66C3C2/d:Properties/f:AssemblyInfo.cs" caret="0" fromTop="0" />
       <File id="3EC015F7-2DBF-4440-A6F3-04480A66C3C2/f:Program.cs" caret="0" fromTop="0" />
-      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Chunk/f:WaveDataChunk.cs" caret="379" fromTop="14" />
-      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Chunk/f:WaveFormatChunk.cs" caret="18" fromTop="0" />
-      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Chunk/f:WaveHeader.cs" caret="12" fromTop="0" />
-      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Types/f:IWaveType.cs" caret="17" fromTop="0" />
-      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Types/f:WaveBase.cs" caret="1964" fromTop="89" />
-      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Types/f:WaveSawtooth.cs" caret="466" fromTop="15" />
-      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Types/f:WaveSine.cs" caret="1181" fromTop="34" />
-      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Types/f:WaveSquare.cs" caret="171" fromTop="6" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Chunk/f:WaveHeader.cs" caret="319" fromTop="12" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Chunk/f:WaveDataChunk.cs" caret="365" fromTop="12" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Chunk/f:WaveFormatChunk.cs" caret="849" fromTop="22" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Types/f:WaveSine.cs" caret="274" fromTop="11" />
+      <File id="3EC015F7-2DBF-4440-A6F3-04480A66C3C2/f:Main.cs" caret="608" fromTop="20" />
+      <File id="3EC015F7-2DBF-4440-A6F3-04480A66C3C2/f:Main.Designer.cs" caret="488" fromTop="13" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Types/f:WaveBase.cs" caret="724" fromTop="29" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/f:WaveGenerator.cs" caret="559" fromTop="20" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Types/f:IWaveType.cs" caret="0" fromTop="0" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Types/f:WaveSquare.cs" caret="13" fromTop="0" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Types/f:WaveSawtooth.cs" caret="324" fromTop="7" />
     </RecentFiles>
     <RecentEdits>
       <File id="3EC015F7-2DBF-4440-A6F3-04480A66C3C2/f:Program.cs" caret="0" fromTop="0" />
-      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Types/f:WaveSine.cs" caret="1181" fromTop="9" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Types/f:WaveSine.cs" caret="1020" fromTop="9" />
       <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Chunk/f:WaveDataChunk.cs" caret="17" fromTop="0" />
       <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Chunk/f:WaveFormatChunk.cs" caret="18" fromTop="0" />
       <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Chunk/f:WaveHeader.cs" caret="12" fromTop="0" />
       <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Types/f:IWaveType.cs" caret="17" fromTop="0" />
-      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Types/f:WaveBase.cs" caret="1964" fromTop="89" />
-      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Types/f:WaveSawtooth.cs" caret="1684" fromTop="48" />
-      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Types/f:WaveSawtooth.cs" caret="466" fromTop="15" />
-      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Types/f:WaveSine.cs" caret="1181" fromTop="34" />
-      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Types/f:WaveSquare.cs" caret="1236" fromTop="36" />
-      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Types/f:WaveSquare.cs" caret="464" fromTop="15" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Types/f:WaveBase.cs" caret="2088" fromTop="89" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Types/f:WaveSawtooth.cs" caret="1474" fromTop="48" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Types/f:WaveSine.cs" caret="1020" fromTop="34" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Types/f:WaveSquare.cs" caret="1078" fromTop="36" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Types/f:WaveSquare.cs" caret="543" fromTop="14" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Types/f:WaveSawtooth.cs" caret="861" fromTop="3" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Types/f:WaveSawtooth.cs" caret="863" fromTop="9" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Types/f:WaveSawtooth.cs" caret="994" fromTop="13" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/f:WaveGenerator.cs" caret="2205" fromTop="71" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Types/f:WaveSine.cs" caret="226" fromTop="9" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Types/f:WaveSquare.cs" caret="274" fromTop="11" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Types/f:WaveBase.cs" caret="506" fromTop="16" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Types/f:WaveSawtooth.cs" caret="351" fromTop="15" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Types/f:WaveSawtooth.cs" caret="277" fromTop="11" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Types/f:WaveBase.cs" caret="89" fromTop="3" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Types/f:WaveBase.cs" caret="438" fromTop="13" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Types/f:WaveSawtooth.cs" caret="13" fromTop="0" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Types/f:WaveSquare.cs" caret="13" fromTop="0" />
+      <File id="B7A8BE0E-F024-48D6-BA18-47179BEE593B/d:Wave/d:Types/f:WaveSine.cs" caret="13" fromTop="0" />
+      <File id="3EC015F7-2DBF-4440-A6F3-04480A66C3C2/f:Main.cs" caret="0" fromTop="0" />
+      <File id="3EC015F7-2DBF-4440-A6F3-04480A66C3C2/f:Main.cs" caret="219" fromTop="5" />
+      <File id="3EC015F7-2DBF-4440-A6F3-04480A66C3C2/f:Main.cs" caret="595" fromTop="19" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -49,6 +68,15 @@
     <ItemStatistics item="Default">
       <Item value="EnvironmentVariableTarget`0" priority="0" />
       <Item value="int" priority="0" />
+      <Item value="override" priority="0" />
+      <Item value="using" priority="0" />
+      <Item value="CrazyTones" priority="0" />
+      <Item value="Core.Wave" priority="0" />
+      <Item value="WaveGenerator`0" priority="0" />
+      <Item value="waveGenerator" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CrazyTones.Core.Wave.WaveGenerator">
+      <Item value="Save`0" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>
