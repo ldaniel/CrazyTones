@@ -1,28 +1,22 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
-namespace CrazyTones.Core
+namespace CrazyTones.Core.Wave.Types
 {
     public class WaveSine : WaveBase
     {
         private const int AMPLITUDE = 32760;
-        private const double FREQ = 440.0f;
+        private const double FREQUENCY = 440.0f;
 
         public WaveSine()
         {
-            Header = new WaveHeader();
-            Data = new WaveDataChunk();
-            Format = new WaveFormatChunk();
             Initialize();
         } 
 
-        public override void Initialize()
+        public override sealed void Initialize()
         {
             uint numSamples = Format.SamplesPerSec * Format.NumberOfChannels;
             Data.ShortArray = new short[numSamples];            
-            double t = (Math.PI * 2 * FREQ) / (Format.SamplesPerSec * Format.NumberOfChannels);
+            double t = (Math.PI * 2 * FREQUENCY) / (Format.SamplesPerSec * Format.NumberOfChannels);
 
             for (uint i = 0; i < numSamples - 1; i++)
             {

@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using CrazyTones.Core.Wave;
 
 namespace CrazyTones.App
 {
@@ -14,6 +15,12 @@ namespace CrazyTones.App
         public Main()
         {
             InitializeComponent();
+        }
+
+        private void btnTest_Click(object sender, EventArgs e)
+        {
+            var waveGenerator = new WaveGenerator();
+            waveGenerator.Save(@"C:\Users\Leandro Daniel\Projetos\CrazyTones\teste.wav");
         }
     }
 }

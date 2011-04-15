@@ -1,4 +1,4 @@
-﻿namespace CrazyTones.Core
+﻿namespace CrazyTones.Core.Wave.Chunk
 {
     public class WaveFormatChunk
     {

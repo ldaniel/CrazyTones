@@ -1,11 +1,11 @@
-﻿using System;
-using System.IO;
+﻿using System.IO;
+using CrazyTones.Core.Wave.Types;
 
-namespace CrazyTones.Core
+namespace CrazyTones.Core.Wave
 {
     public class WaveGenerator
     {
-        private IWaveType _wave;
+        private readonly IWaveType _wave;
         private FileStream _fileStream;
         private BinaryWriter _writer;
 

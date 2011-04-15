@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
-namespace CrazyTones.Core
+namespace CrazyTones.Core.Wave.Types
 {
     public class WaveSquare : WaveBase
     {
@@ -11,19 +8,16 @@ namespace CrazyTones.Core
         private const double FREQUENCY = 1000;
         private const Int16 CHANNELS = 2;
 
-        public WaveSquare()
+        public WaveSquare() 
         {
-            Header = new WaveHeader();
-            Data = new WaveDataChunk();
-            Format = new WaveFormatChunk();
             Initialize();
         }
 
-        public override void Initialize()
+        public override sealed void Initialize()
         {
-            int bufferDurationSeconds = 1;
+            const int bufferDurationSeconds = 1;
             int numSamples = Convert.ToInt32(bufferDurationSeconds * Format.SamplesPerSec);
-            short[] sampleData = new short[numSamples];
+            var sampleData = new short[numSamples];
             double angle = (Math.PI * 2 * FREQUENCY) / (Format.SamplesPerSec * CHANNELS);
 
             for (int i = 0; i < numSamples; i++)

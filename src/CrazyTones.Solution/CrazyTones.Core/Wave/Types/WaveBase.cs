@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using CrazyTones.Core.Wave.Chunk;
 
-namespace CrazyTones.Core
+namespace CrazyTones.Core.Wave.Types
 {
     public class WaveBase : IWaveType
     {
@@ -13,7 +10,9 @@ namespace CrazyTones.Core
 
         public WaveBase()
         {
-
+            Header = new WaveHeader();
+            Data = new WaveDataChunk();
+            Format = new WaveFormatChunk();
         }
 
         public virtual void Initialize()
